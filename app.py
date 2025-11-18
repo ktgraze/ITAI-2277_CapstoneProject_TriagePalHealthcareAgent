@@ -46,11 +46,11 @@ OPT_DROPOUT_RATE = 0.3 # A common tuned value, or assume default from range
 # Build the model architecture
 model = build_model_for_loading(OPT_CONV1_UNITS, OPT_CONV2_UNITS, OPT_CONV3_UNITS, OPT_DROPOUT_RATE, NUM_CLASSES_CONJUNCTIVITIS)
 # Load the saved weights into the reconstructed model
-model.load_weights('/content/triagepal_optimized_model.h5')
+model.load_weights('models/triagepal_optimized_model.h5')
 
 # Load trained RandomForestClassifier
 try:
-    with open('/content/rf_triage_agent.pkl', 'rb') as f:
+    with open('models/rf_triage_agent.pkl', 'rb') as f:
         rf = pickle.load(f)
 except FileNotFoundError:
     st.error("Error: Trained Random Forest model not found. Please ensure 'rf_triage_agent.pkl' is in /content/.")
@@ -114,7 +114,7 @@ if st.button("Analyze"):
         st.image(img, caption="Uploaded Image", width=300)
 
         # Save uploaded image temporarily
-        img_path = f"/content/{uploaded_image.name}"
+        img_path = uploaded_image.name
         with open(img_path, "wb") as f:
             f.write(uploaded_image.getbuffer())
 
