@@ -8,3 +8,4 @@ scikit-learn
 pillow
 pyngrok
 sqlite3
+mlflow
