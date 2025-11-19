@@ -13,6 +13,17 @@ The TriagePal agent is deployed on **Streamlit Community Cloud** and ready for r
 👉 **Try the live app here:**  
 ### https://itai-2277capstoneprojecttriagepalhealthcareagent-bl9hwtxu9uskl.streamlit.app/
 
+## Screenshots
+
+### Home Screen - Upload Interface
+![Home Screen](images/home_screen.png)
+
+### Analysis Results - Summary & Report
+![Results Screen](images/results_screen.png)
+
+### Recent Analyses Table
+![Recent Analyses](images/recent_analyses.png)
+
 ---
 
 ## 🎯 Project Overview (ITAI-2277 Capstone)
