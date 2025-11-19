@@ -46,7 +46,7 @@ OPT_DROPOUT_RATE = 0.3 # A common tuned value, or assume default from range
 # Build the model architecture
 model = build_model_for_loading(OPT_CONV1_UNITS, OPT_CONV2_UNITS, OPT_CONV3_UNITS, OPT_DROPOUT_RATE, NUM_CLASSES_CONJUNCTIVITIS)
 # Load the saved weights into the reconstructed model
-model.load_weights('models/triagepal_optimized_model.h5')
+model.load_weights('models/triagepal_optimized_model(3).h5')
 
 # Load trained RandomForestClassifier
 try:
