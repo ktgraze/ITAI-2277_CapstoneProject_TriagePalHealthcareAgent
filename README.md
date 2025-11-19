@@ -73,4 +73,43 @@ The system uses a multi-step intelligence pipeline:
 ---
 
 ## 📁 Repository Structure
+```plaintext
+📦 ITAI-2277_CapstoneProject_TriagePalHealthcareAgent
+├── app.py # Streamlit interface
+├── requirements.txt # Dependency list
+├── triagepal.db # SQLite database for saved evaluations
+└── models/
+├── triagepal_optimized_model.h5 # CNN model weights
+└── rf_triage_agent.pkl # Random Forest triage model
+```
 
+---
+
+## 🚀 Setup for Local Development
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/ktgraze/ITAI-2277_CapstoneProject_TriagePalHealthcareAgent.git
+cd ITAI-2277_CapstoneProject_TriagePalHealthcareAgent
+```
+
+### 2. Install Dependencies
+pip install -r requirements.txt
+
+### 3. Run the App
+streamlit run app.py
+
+## 🧑‍💻 Team Information
+
+**Course:** ITAI-2277 — AI Applications and Resources
+**Institution:** Houston City College
+
+**Team Members**
+
+- Jazmine Brown
+
+- Javon Darby
+
+- Jeffery Dirden
+
+- Katherine Stanton
