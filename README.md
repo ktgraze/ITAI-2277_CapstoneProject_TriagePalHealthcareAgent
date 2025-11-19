@@ -28,7 +28,7 @@ The TriagePal agent is deployed on **Streamlit Community Cloud** and ready for r
 
 ## 🎯 Project Overview (ITAI-2277 Capstone)
 
-TriagePal is the **Phase 4 Integrated System Prototype** for the *AI Applications and Resources (ITAI-2277)* course at **Houston Community College**.
+TriagePal is the **Phase 4 Integrated System Prototype** for the *AI Applications and Resources (ITAI-2277)* course at **Houston City College**.
 
 It is designed to provide a **preliminary, AI-supported triage score** using both:
 
